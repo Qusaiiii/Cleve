@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const {
-    token,
     status
 } = require('./misc/config.json');
 const client = new Discord.Client({
@@ -41,4 +40,4 @@ process.on('unhandledRejection', (reason, promise) => {
     console.log('[FATAL] Possibly Unhandled Rejection at: Promise ', promise, ' reason: ', reason.message);
 });
 
-client.login(token);
+client.login(process.env.BOT_TOKEN);
