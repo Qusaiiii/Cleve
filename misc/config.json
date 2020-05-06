@@ -7,8 +7,8 @@
     },
     "chat": {
         "url": "http://api.brainshop.ai/get",
-        "bid": "your BID",
-        "key": "your key",
-        "uid": "your random name"
+        "bid": "22853",
+        "key": "7OCGR50MiUdiO72F",
+        "uid": "Peery Test"
     }
 }
